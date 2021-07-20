@@ -3,10 +3,7 @@ function setInnerHeight() {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
 }
 
-
-window.addEventListener('resize', () => {
-    setInnerHeight()
-});
+window.addEventListener('resize', () => setInnerHeight);
 
 setInnerHeight()
 
